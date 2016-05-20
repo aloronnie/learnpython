@@ -1,0 +1,166 @@
+'''
+print "Web Education"
+
+x=11
+if x<10:
+	print "S"
+if x>10:
+	print 'B'
+
+n=10
+while n>0:
+	print n
+	n=n-1
+print 'nononono'
+
+y=2
+y=3.9*y*(1-y)
+print "y=",y
+
+type('eee')
+type(1213)
+type(1213.23)
+print float(99)/100
+i=42
+type(i)
+f=float(i)
+print f
+type(f)
+print 1+2*float(3)/4-5
+
+nam=raw_input('Who are you?')
+print 'Welcome',nam
+
+inp=raw_input('Europe floor?')
+usf=int(inp)+1
+print "US floor",usf
+
+x=5
+if x<10:
+	print 'Smaller'
+if x>20:
+	print "Bigger"
+print 'Finis'
+
+x=5
+print 'Before 5'
+
+if x==5:
+	print 'it\'s 5'
+	print 'it\'s still 5'
+	print 'third 5'
+
+print 'Afterwords 5'
+print 'Before 6'
+
+if x==6:
+	print 'it\'s 6'
+	print 'it\'s still 6'
+	print 'third 6'
+
+print 'Afterwords 6'
+
+x=42
+if x>1:
+	print 'more than one'
+	if x<100:
+		print 'less than 100'
+print 'all done'
+
+x=4
+if x>2:
+	print 'bigger'
+else:
+	print 'smaller'
+print 'All done'
+
+x=5
+if x<2:
+	print 'small'
+elif x<10:
+	print 'medium'
+else:
+	print 'large'
+print 'done!'	
+
+
+astr='hello bob'
+try:
+	istr=int(astr)
+except:
+	istr=-1
+print 'First',istr
+
+astr='123'
+try:
+	istr=int(astr)
+except:
+	istr=-1
+print 'Second',istr
+
+astr='bob'
+try:
+	print 'hello'
+	istr=int(astr)
+	print 'there'
+except:
+	istr=-1
+print 'Done',istr
+
+rawstr=raw_input('Enter a number:')
+try:
+	ival=int(rawstr)
+except:
+	ival=-1
+
+if ival>0:
+	print 'Nice work'
+else:
+	print 'Not a number'
+'''
+
+'''
+try:
+	hours=raw_input('Enter hours:')
+	hours=float(hours)
+	rate=raw_input('Enter rate:')
+	rate=float(rate)
+except:
+	print 'Error, please enter numberic input'
+
+print hours, rate
+
+if hours<=40:
+	pay=hours*rate
+else:
+	pay=40*rate+(hours-40)*rate*1.5
+
+print 'Pay:',pay
+'''
+'''
+try:
+	score = raw_input("Enter Score: ")
+	score=float(score)
+except:
+	print 'Error, please enter numeric input.'
+	quit()
+
+if score>1.0:
+	print 'Error, out of range.'
+elif score>=0.9:
+	print 'A'
+elif score>=0.8:
+	print 'B'
+elif score>=0.7:
+	print 'C'
+elif score>=0.6:
+	print 'D'
+elif score>0:
+	print 'F'
+else:
+	print 'Error, out of range.111'
+'''
+
+
+
+
